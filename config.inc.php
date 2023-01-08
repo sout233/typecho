@@ -18,7 +18,7 @@ require_once __TYPECHO_ROOT_DIR__ . '/var/Typecho/Common.php';
 \Typecho\Common::init();
 
 // config db
-$db = new \Typecho\Db('Pdo_Pgsql', 'typecho_');
+$db = new Typecho_Db('Pdo_Pgsql', 'typecho_');
 $db->addServer(array (
   'host' => 'tiny.db.elephantsql.com',
   'port' => 5432,
